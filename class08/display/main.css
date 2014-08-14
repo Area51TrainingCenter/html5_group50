@@ -1,0 +1,39 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+h1 {
+  background-color: #3ca2fd;
+  padding: 50px;
+}
+
+h2 {
+  background-color: #3dc941;
+  padding: 50px;
+}
+
+p {
+  background-color: #f8d800;
+  padding: 50px;
+}
+
+strong {
+  background-color: white;
+}
+
+a {
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
