@@ -1,0 +1,88 @@
+body {
+  background-color: #ddd;
+  color: #555;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: #4583f5;
+  text-decoration: none;
+}
+
+.panel {
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 30px;
+  padding: 24px 24px 80px 24px;
+  position: relative;
+  width: 440px;
+}
+
+.panel-navigation {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  height: 7px;
+}
+
+.panel-navigation li {
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.panel-navigation li a {
+  background-color: #d2d2d2;
+  border-radius: 50%;
+  display: block;
+  text-indent: -9999px;
+  width: 7px;
+  height: 7px;
+}
+
+.panel-navigation li a:hover,
+.panel-navigation li a:focus {
+  background-color: #666;
+}
+
+.panel-navigation .active {
+  background-color: #333;
+}
+
+.panel-buttons {
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+}
+
+.panel-buttons a {
+  background-color: #f4f4f4;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  display: inline-block;
+  color: #555;
+  font-size: 13px;
+  margin-left: 10px;
+  padding: 4px 16px;
+}
+
+.panel-buttons a:hover,
+.panel-buttons a:focus {
+  border-color: rgba(0,0,0,0.3);
+}
+
+.panel:before {
+  content: "";
+  border-top: 14px solid transparent;
+  border-right: 14px solid white;
+  border-bottom: 14px solid transparent;
+  border-left: 14px solid transparent;
+  position: absolute;
+  top: 30px;
+  left: -28px;
+  width: 0;
+}
+
+
+
