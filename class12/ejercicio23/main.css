@@ -1,0 +1,29 @@
+body {
+  background-color: green;
+  font: 16px/1.4 Roboto, sans-serif;
+}
+
+.nav-main {
+  background-color: white;
+  overflow: hidden;
+  /* Ese overflow es un método para solucionar el problema de los contenedores que solo contienen floats. */
+}
+
+.nav-main li {
+  float: left;
+  margin-right: 26px;
+}
+
+.nav-main a {
+  border-bottom: 3px solid transparent;
+  color: #666;
+  display: block;
+  padding: 20px 0;
+  text-decoration: none;
+}
+
+.nav-main a:hover,
+.current {
+  color: #222;
+  border-color: #222;
+}
