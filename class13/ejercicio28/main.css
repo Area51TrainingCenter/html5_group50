@@ -1,0 +1,63 @@
+.clearfix:before, .clearfix:after {content: "";display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
+
+body {
+  font: 13px/1.3 Arial, sans-serif;
+  padding: 30px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  color: #0e4273;
+  text-decoration: none;
+}
+
+h3 {
+  border-bottom: 3px solid #c4d1dd;
+  color: #0e4273;
+  font-size: 16px;
+  margin-bottom: 16px;
+  padding: 10px 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.main-products {
+  float: left;
+  width: 70%;
+}
+
+.main-products li {
+  float: left;
+  width: 33.3%;
+}
+
+.main-products li img {
+  margin-bottom: 10px;
+}
+
+.main-products li h4 {
+  margin-bottom: 10px;
+}
+
+.main-products li span {
+  color: #e22a36;
+  display: block;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+
+
+.sidebar {
+  float: right;
+  width: 25%;
+}
