@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'la_chatte_a_mamanregular';
+  src: url('fonts/la_chatte_a_maman-webfont.eot');
+  src: url('fonts/la_chatte_a_maman-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/la_chatte_a_maman-webfont.woff2') format('woff2'),
+       url('fonts/la_chatte_a_maman-webfont.woff') format('woff'),
+       url('fonts/la_chatte_a_maman-webfont.ttf') format('truetype'),
+       url('fonts/la_chatte_a_maman-webfont.svg#la_chatte_a_mamanregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'muliregular';
+  src: url('fonts/muli-regular-webfont.eot');
+  src: url('fonts/muli-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/muli-regular-webfont.woff2') format('woff2'),
+       url('fonts/muli-regular-webfont.woff') format('woff'),
+       url('fonts/muli-regular-webfont.ttf') format('truetype'),
+       url('fonts/muli-regular-webfont.svg#muliregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font: 16px/1.4 muliregular, Arial, sans-serif;
+  padding: 30px;
+}
+
+h1 {
+  font: 80px/0.8 la_chatte_a_mamanregular, Georgia, serif;
+  margin-bottom: 30px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+
+
